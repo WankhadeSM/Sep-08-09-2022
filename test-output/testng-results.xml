@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-08T11:53:02 IST" name="Default suite" finished-at="2022-09-08T11:53:09 IST" duration-ms="7633">
+    <groups>
+    </groups>
+    <test started-at="2022-09-08T11:53:02 IST" name="Default test" finished-at="2022-09-08T11:53:09 IST" duration-ms="7633">
+      <class name="Module1_Login_Test.KiteLoginTest">
+        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Module1_Login_Test.KiteLoginTest@1fa268de]" started-at="2022-09-08T11:53:02 IST" name="Openbrowser" finished-at="2022-09-08T11:53:05 IST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method is-config="true" signature="LogintoApp()[pri:0, instance:Module1_Login_Test.KiteLoginTest@1fa268de]" started-at="2022-09-08T11:53:05 IST" name="LogintoApp" finished-at="2022-09-08T11:53:08 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoApp -->
+        <test-method signature="VerifyUserID()[pri:0, instance:Module1_Login_Test.KiteLoginTest@1fa268de]" started-at="2022-09-08T11:53:08 IST" name="VerifyUserID" finished-at="2022-09-08T11:53:09 IST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserID -->
+        <test-method is-config="true" signature="LogoutfromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.KiteLoginTest@1fa268de]" started-at="2022-09-08T11:53:09 IST" name="LogoutfromApp" finished-at="2022-09-08T11:53:09 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserID status=SUCCESS method=KiteLoginTest.VerifyUserID()[pri:0, instance:Module1_Login_Test.KiteLoginTest@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutfromApp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Module1_Login_Test.KiteLoginTest@1fa268de]" started-at="2022-09-08T11:53:09 IST" name="closebrowser" finished-at="2022-09-08T11:53:09 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Module1_Login_Test.KiteLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
